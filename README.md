@@ -29,6 +29,11 @@ Do the basic section of terraform( Fundamentals -> CLI )
 
 https://learn.hashicorp.com/collections/terraform/aws-get-started 
 
+Play around in the git game
+
+https://learngitbranching.js.org/?locale=pt_BR
+
+
 and with this you are good to go!
 
 
