@@ -70,6 +70,11 @@ I personally recommend PuttyGen, but you can use another on if you'd like.
 `6.Enter a passphrase if desired`<br>
 `7.Click the "Save private key" button to save the private key, and "Save public key" to save the public key.`<br>
 
+# Task 4
+
+Access the instance and install apache, modify the default apache page to say "I did it".
+
+
 
 
 
