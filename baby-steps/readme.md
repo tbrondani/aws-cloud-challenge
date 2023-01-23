@@ -42,12 +42,16 @@ Using the code in the first task, incorporate the script creating a SG and attac
 First you need to obtain your public IP, then you are going to create a rule allowing incoming traffic from port 22 with your public IP as origin.
 
 cli
+`
 curl ifconfig.me
+`
 
 web
+`
 https://meuip.com.br/
 https://checkip.dyndns.org/
-https://www.whatismyip.com/
+https://www.whatismyip.com/ 
+`
 
 
 
@@ -56,13 +60,15 @@ https://www.whatismyip.com/
 Now, we are going to create a instance keypair using linux(you can use windows if you'd like), since we cannot create a key pair and
 
 example in Linux/ Windows(git bash) : 
+`
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f my_key
+`
 (This will create the key pair in the current directory with the name my_key and my_key.pub)
 
 Windows:
 
 I personally recommend PuttyGen, but you can use another on if you'd like.
-
+`
 1.Open PuTTYgen
 2.Select the "RSA" radio button for the type of key to generate
 3.Set the number of bits in a generated key to 4096
@@ -70,7 +76,7 @@ I personally recommend PuttyGen, but you can use another on if you'd like.
 5.Move the mouse pointer around in the blank area at the top of the window to generate randomness for the key generation
 6.Enter a passphrase if desired
 7.Click the "Save private key" button to save the private key, and "Save public key" to save the public key.
-
+`
 
 
 
