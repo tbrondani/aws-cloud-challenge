@@ -1,6 +1,20 @@
 In the baby steps we are focused on get to know aws and its basic services!
 
+
+First of all! 
+
+DO NOT FORGET TO DELETE EVERYTHING YOU CREATED AFTER YOUR STUDIES!
+(I wont be responsible for your fat bill at the end of the month)
+
+Now let's have fun :) 
+
 Create a infrastrucure using only basic tools, you can do it with the AWS Console or Terraform!
+Let's focus on the hands on experience and trial and error for now.
+
+EBS Disk specs:
+
+![image](https://user-images.githubusercontent.com/40150118/185254293-b902f2cb-b221-4f73-ac9f-a3b97d17bcc4.png)
+
 
 # Task 1 :
 Create a ec2 instance with Amazon Linux 2 as a operating system and a additional EBS Disk 
@@ -59,6 +73,4 @@ I personally recommend PuttyGen, but you can use another on if you'd like.
 
 
 
-EBS Disk specs:
 
-![image](https://user-images.githubusercontent.com/40150118/185254293-b902f2cb-b221-4f73-ac9f-a3b97d17bcc4.png)
