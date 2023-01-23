@@ -2,13 +2,62 @@ In the baby steps we are focused on get to know aws and its basic services!
 
 Create a infrastrucure using only basic tools, you can do it with the AWS Console or Terraform!
 
-Task!
+# Task 1 :
 Create a ec2 instance with Amazon Linux 2 as a operating system and a additional EBS Disk 
 EC2 Instance specs: 
 
-
 -t2.micro
 -10gb xvda
+-region us-east-1
+
+Focus : Get your self familiarized with AWS Console.
+
+Objective: Have the instance created on the console and the state should be "RUNNING/AVALIABLE".
+
+Do not panic if you cannot access the instance!
+
+
+# Task 2:
+
+Let's now create a Security Group to enable acess over the internet!
+
+REMEMBER THIS IS NOT GOOD PRACTICE IT'S JUST FOR LEARNING PURPOSES, NEVER CREATE A SG FULL PERMISSIONS TO THE INTERNET! NEVER!!
+
+Using the code in the first task, incorporate the script creating a SG and attaching in the instance.
+
+First you need to obtain your public IP, then you are going to create a rule allowing incoming traffic from port 22 with your public IP as origin.
+
+cli
+curl ifconfig.me
+
+web
+https://meuip.com.br/
+https://checkip.dyndns.org/
+https://www.whatismyip.com/
+
+
+
+# Task 3:
+
+Now, we are going to create a instance keypair using linux(you can use windows if you'd like), since we cannot create a key pair and
+
+example in Linux/ Windows(git bash) : 
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" -f my_key
+(This will create the key pair in the current directory with the name my_key and my_key.pub)
+
+Windows:
+
+I personally recommend PuttyGen, but you can use another on if you'd like.
+
+1.Open PuTTYgen
+2.Select the "RSA" radio button for the type of key to generate
+3.Set the number of bits in a generated key to 4096
+4.Click the "Generate" button
+5.Move the mouse pointer around in the blank area at the top of the window to generate randomness for the key generation
+6.Enter a passphrase if desired
+7.Click the "Save private key" button to save the private key, and "Save public key" to save the public key.
+
+
 
 EBS Disk specs:
 
