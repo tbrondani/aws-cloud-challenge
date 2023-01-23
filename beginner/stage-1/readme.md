@@ -24,4 +24,7 @@ Tag containing the function of the S3. <br>
 
 Permission to read/write in the S3 Bucket.
 
+
+# Reference Architecture for this part.
+
 ![image](https://user-images.githubusercontent.com/40150118/185256108-61b96043-d529-4854-b816-0704eb09d0b3.png)
