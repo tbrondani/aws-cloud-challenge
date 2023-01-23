@@ -72,7 +72,13 @@ I personally recommend PuttyGen, but you can use another on if you'd like.
 
 # Task 4
 
-Access the instance and install apache, modify the default apache page to say "I did it".
+Access the instance(by hand) and install apache, modify the default apache page to say "I did it".
+
+# End od Baby Steps!
+
+Congratulations for finishing the first part of the challange !
+
+Ok, now you have familiarized yourself with AWS and a tiny bit of it's services, try creating everything using terraform.
 
 
 
