@@ -20,9 +20,9 @@ EBS Disk specs:
 Create a ec2 instance with Amazon Linux 2 as a operating system and a additional EBS Disk 
 EC2 Instance specs: 
 
--t2.micro
--10gb xvda
--region us-east-1
+-t2.micro <br>
+-10gb xvda <br>
+-region us-east-1 <br>
 
 Focus : Get your self familiarized with AWS Console.
 
@@ -41,12 +41,10 @@ Using the code in the first task, incorporate the script creating a SG and attac
 
 First you need to obtain your public IP, then you are going to create a rule allowing incoming traffic from port 22 with your public IP as origin.  
 
-cli
-`
-curl ifconfig.me
-`
+cli <br>
+`curl ifconfig.me`
 
-web
+web <br>
 `https://meuip.com.br/`<br>
 `https://checkip.dyndns.org/`<br>
 `https://www.whatismyip.com/`<br>
