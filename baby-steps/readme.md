@@ -47,11 +47,9 @@ curl ifconfig.me
 `
 
 web
-`
-https://meuip.com.br/  
-https://checkip.dyndns.org/  
-https://www.whatismyip.com/  
-`
+`https://meuip.com.br/<br>
+https://checkip.dyndns.org/<br>
+https://www.whatismyip.com/<br>`
 
 
 
@@ -69,13 +67,13 @@ Windows:
 
 I personally recommend PuttyGen, but you can use another on if you'd like.
 `
-1.Open PuTTYgen  
-2.Select the "RSA" radio button for the type of key to generate  
-3.Set the number of bits in a generated key to 4096  
-4.Click the "Generate" button  
+1.Open PuTTYgen\  
+2.Select the "RSA" radio button for the type of key to generate\  
+3.Set the number of bits in a generated key to 4096\  
+4.Click the "Generate" button \ 
 5.Move the mouse pointer around in the blank area at the top of the window to generate randomness for the key generation
-6.Enter a passphrase if desired  
-7.Click the "Save private key" button to save the private key, and "Save public key" to save the public key.  
+6.Enter a passphrase if desired\ 
+7.Click the "Save private key" button to save the private key, and "Save public key" to save the public key. \ 
 `
 
 
