@@ -3,7 +3,12 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
   key_name      = aws_key_pair.super_key_pair.key_name
   security_groups = [aws_security_group.mega_sg.name]
-  
+
+  user_data = base64encode(file("/files/userdata.sh"))
+  availability_zone = "us-east-1a"
+  iam_instance_profile = "${aws_iam_instance_profile.example.name}"
+
+
   block_device {
     device_name = "/dev/xvda"
     volume_size = 10
@@ -14,11 +19,13 @@ resource "aws_instance" "example" {
     device_name = "/dev/xvdb"
     volume_size = 5
     volume_type = "gp3"
+}
 
-  user_data = base64encode(file("/files/userdata.sh"))
-
-
+  tags = {
+    Name = "Super-web-instance"
+    Function = "Web"
   }
+
 }
 
 #dont forget to use your own public IP, 192.168.1.1 is just a placeholder.
